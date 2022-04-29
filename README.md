@@ -80,4 +80,4 @@ ytNotifs.stop(); // stop looking for new videos
 const jbLogger = require("@james-bennett-295/logger");
 jbLogger.config({ useAnsiColours: false });
 ```
-Have any issues, questions or suggestions? [Join my Discord server](https://discord.com/invite/dcAwVFj2Pf) or [open a Github issue](https://github.com/James-Bennett-295/npm-youtube-notifs/issues/new).
+Have any issues, questions or suggestions? [Join my Discord server](https://discord.com/invite/dcAwVFj2Pf) or [open a Github issue](https://github.com/James-Bennett-295/npm-yt-notifs/issues/new).
