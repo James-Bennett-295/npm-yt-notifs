@@ -27,8 +27,6 @@ function saveDataFile() {
 
 function start(newVidCheckInterval, inputDataFilePath) {
 
-	logger.triggerAlert();
-
 	if (typeof (newVidCheckInterval) === "undefined") newVidCheckInterval = 120;
 	if (typeof (inputDataFilePath) !== "undefined") dataFilePath = inputDataFilePath;
 	logger.debug("[youtube-notifs]: start function ran. Args:\n\t" + newVidCheckInterval + "\n\t" + inputDataFilePath);
